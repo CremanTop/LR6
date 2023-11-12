@@ -61,22 +61,23 @@ git push origin report
 ## **Форматированная история операция**
 
 Выведена с использованием команды:
-> git log --pretty=format:"%h - %ar, %an : %s"
+> git log --pretty=format:"%h - %ad, %an : %s"
 
 ```
-52143a4 - 4 minutes ago, CremanTop : В отчёт добавлен лог команд
-9ab96a5 - 8 minutes ago, CremanTop : Все изображения перенесены в отчёт
-161bebc - 17 minutes ago, CremanTop : Отчёт продолжает оформляться, с исправление переноса строк
-ad2cd5c - 29 minutes ago, CremanTop : Начало оформления отчёта
-9ef4578 - 59 minutes ago, CremanTop : Revert "Изменён файл mergefile.txt"
-45932d2 - 63 minutes ago, CremanTop : Изменён файл mergefile.txt
-bb9b79e - 65 minutes ago, CremanTop : Изменён файл new.txt
-b727708 - 80 minutes ago, CremanTop : Слияние ветки branch1 с master
-54461a0 - 2 hours ago, CremanTop : Create new.txt
-921f53b - 3 years ago, Kurtyanik : Обновление информации
-0f9f50d - 3 years ago, Kurtyanik : Заполнил файл
-c08a654 - 3 years ago, Kurtyanik : Файл создан пустым
-3c6e913 - 3 years ago, Kurtyanik : Initial commit
+333b097 - Sun Nov 12 16:18:57 2023 +0300, CremanTop : Финальная фиксация. В отчёт добавлен форматированный лог команд и вывод
+52143a4 - Sun Nov 12 16:11:17 2023 +0300, CremanTop : В отчёт добавлен лог команд
+9ab96a5 - Sun Nov 12 16:06:59 2023 +0300, CremanTop : Все изображения перенесены в отчёт
+161bebc - Sun Nov 12 15:58:22 2023 +0300, CremanTop : Отчёт продолжает оформляться, с исправление переноса строк
+ad2cd5c - Sun Nov 12 15:45:45 2023 +0300, CremanTop : Начало оформления отчёта
+9ef4578 - Sun Nov 12 15:16:11 2023 +0300, CremanTop : Revert "Изменён файл mergefile.txt"
+45932d2 - Sun Nov 12 15:11:37 2023 +0300, CremanTop : Изменён файл mergefile.txt
+bb9b79e - Sun Nov 12 15:09:58 2023 +0300, CremanTop : Изменён файл new.txt
+b727708 - Sun Nov 12 14:54:37 2023 +0300, CremanTop : Слияние ветки branch1 с master
+54461a0 - Sun Nov 12 14:34:24 2023 +0300, CremanTop : Create new.txt
+921f53b - Sat Nov 21 20:09:49 2020 +0300, Kurtyanik : Обновление информации
+0f9f50d - Sat Nov 21 20:08:33 2020 +0300, Kurtyanik : Заполнил файл
+c08a654 - Sat Nov 21 20:02:16 2020 +0300, Kurtyanik : Файл создан пустым
+3c6e913 - Sat Nov 21 19:58:20 2020 +0300, Kurtyanik : Initial commit
 ```
 
 ## **Вывод**
